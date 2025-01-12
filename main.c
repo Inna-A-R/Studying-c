@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 int main () {
+    int x = 2, y = 4;
+    int c;
 
-    int num = 23;
-    float x;
-    x = 4.56;
-    char sym = 'A';
-    double y = 6.4389576;
-
-    printf ("Num is %d\n", num);
-
+    c = x > y ? 23 : 45;
+    printf("%d", c);
     return 0;
-}
+    }
